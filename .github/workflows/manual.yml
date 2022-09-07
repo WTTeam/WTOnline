@@ -1,8 +1,6 @@
 name: Elixir Pipeline Run
 
-on:
-  schedule:
-    - cron:  '30 22 * * 4'
+on: [workflow_dispatch]
 
 jobs:
   build:
